@@ -1,0 +1,13 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     'ps5-codegen1/math'
+relocations:
+  - { offsetInCU: 0x10, offset: 0x10, size: 0x8, addend: 0x0, symName: .main, symObjAddr: 0x0, symBinAddr: 0x100000C5A, symSize: 0x1DD }
+  - { offsetInCU: 0x2D, offset: 0x2D, size: 0x8, addend: 0x0, symName: .main, symObjAddr: 0x0, symBinAddr: 0x100000C5A, symSize: 0x1DD }
+  - { offsetInCU: 0x46, offset: 0x46, size: 0x8, addend: 0x0, symName: startlast, symObjAddr: 0x1DD, symBinAddr: 0x100000E37, symSize: 0x5E }
+  - { offsetInCU: 0x60, offset: 0x60, size: 0x8, addend: 0x0, symName: .epilogue_main, symObjAddr: 0x23B, symBinAddr: 0x100000E95, symSize: 0x5 }
+  - { offsetInCU: 0x6B, offset: 0x6B, size: 0x8, addend: 0x0, symName: main, symObjAddr: 0x240, symBinAddr: 0x100000E9A, symSize: 0x19 }
+  - { offsetInCU: 0x86, offset: 0x86, size: 0x8, addend: 0x0, symName: PARSE_ARGV, symObjAddr: 0x259, symBinAddr: 0x100000EB3, symSize: 0x2F }
+  - { offsetInCU: 0x96, offset: 0x96, size: 0x8, addend: 0x0, symName: ABORT, symObjAddr: 0x288, symBinAddr: 0x100000EE2, symSize: 0x18 }
+  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: safe_printf, symObjAddr: 0x2A0, symBinAddr: 0x100000EFA, symSize: 0x12 }
+...
